@@ -60,7 +60,7 @@ namespace WpfApp1
 			double x = 0;
 			double y = 0;
 
-			for (int count = 0; count < 20000; count++)
+			for (int count = 0; count < 100000; count++)
 			{
 				//DrawDot((int)(300 + 58 * x), (int)(58 * y));
 				DrawDot((int)(x0 + 90 * x), (int)(y0 - 90 * y));
@@ -92,7 +92,6 @@ namespace WpfApp1
 
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
-			
 			Draw();
 		}
 	}
